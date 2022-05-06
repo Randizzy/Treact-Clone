@@ -104,6 +104,8 @@ HOME
 */
 
 .home__description {
+    display: flex;
+    flex-direction: column;
     width: 40%;
     max-width: none;
     text-align: left;
@@ -126,8 +128,6 @@ h1 {
 }
 
 .input {
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     max-width: 28rem;
     position: relative;
@@ -147,7 +147,6 @@ input::placeholder, textarea::placeholder {
     width: 100%;
     font-weight: 500;
     transition-duration: 300ms;
-    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     padding-left: 2rem;
 }
 
@@ -169,7 +168,6 @@ input::placeholder, textarea::placeholder {
     padding-bottom: 1rem;
     display: flex;
     align-items: center;
-    -moz-box-pack: center;
     justify-content: center;
     transition-duration: 300ms;
 }
@@ -193,10 +191,23 @@ input::placeholder, textarea::placeholder {
     opacity: 0.5;
 }
 
-figure {
-
+.big__img {
+    margin-top: 3rem;
+    width: 60%;
+    flex: 1 1 0%;
 }
 
 .main__img {
-    
+    width: 100%;
+
+}
+
+/*
+
+FEATURES
+
+*/
+
+.container {
+    padding: 80px 0 ;
 }
