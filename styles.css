@@ -295,3 +295,88 @@ FEATURES
     color: rgba(124,139,161);
     max-width: 220px
 }
+
+/*
+
+LEARN
+
+*/
+
+.learn__description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.learn__subheading {
+    text-align: left;
+    font-weight: 700;
+    color: rgba(100,21,255);
+    letter-spacing: 0.1em;
+}
+
+.learn__heading {
+    font-size: 3rem;
+    text-align: left;
+    margin-top: 1rem;
+    line-height: 1.25;
+    font-weight: 900;
+    letter-spacing: 0.025em;
+    color: rgba(36,62,99);
+}
+
+.learn__para {
+    font-size: 1.125rem;
+    text-align: left;
+    margin-top: 1rem;
+    font-weight: 500;
+    line-height: 1.625;
+    color: rgba(124,139,161);
+}
+
+.learn__button {
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    display: inline-block;
+    border-radius: 9999px;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    background-color: rgba(100,21,255);
+    color: rgba(247,250,252);
+    transition-duration: 300ms;
+    text-decoration: inherit;
+    text-align: left;
+}
+
+.learn__images {
+    width: 50%;
+}
+
+.learn__main--img {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    margin-right: 3rem;
+}
+
+.learn__image--dots {
+    --tw-translate-x: 50%;
+    --tw-translate-y: 50%;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    fill: currentcolor;
+    --tw-text-opacity: 1;
+    color: rgba(100,21,255,var(--tw-text-opacity));
+    z-index: -10;
+}
