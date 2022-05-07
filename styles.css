@@ -272,7 +272,7 @@ FEATURES
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     margin-left: 8px;
 }
 
@@ -302,10 +302,20 @@ LEARN
 
 */
 
+.flex {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+    padding: 8rem;
+}
+
 .learn__description {
     width: 50%;
     display: flex;
     flex-direction: column;
+    margin-right: 4rem;
+    max-width: none;
 }
 
 .learn__subheading {
@@ -335,6 +345,7 @@ LEARN
 }
 
 .learn__button {
+    width: 25%;
     margin-top: 2rem;
     font-size: 0.875rem;
     display: inline-block;
@@ -350,15 +361,12 @@ LEARN
 
 .learn__images {
     width: 50%;
+    flex-shrink: 0;
+    position: relative;
 }
 
 .learn__main--img {
-    width: 100%;
-}
-
-.flex {
-    display: flex;
-    margin-right: 3rem;
+    max-width: 100%;
 }
 
 .learn__image--dots {
