@@ -272,7 +272,8 @@ FEATURES
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 24px;
+    margin-bottom: 70px;
+    margin-left: 8px;
 }
 
 .service__img--img {
@@ -292,4 +293,5 @@ FEATURES
     font-weight: 500;
     line-height: 2;
     color: rgba(124,139,161);
+    max-width: 220px
 }
