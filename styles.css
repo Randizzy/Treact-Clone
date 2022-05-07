@@ -388,3 +388,159 @@ LEARN
     color: rgba(100,21,255,var(--tw-text-opacity));
     z-index: -10;
 }
+
+/*
+
+START
+
+*/
+
+.start__row {
+    flex-direction: row;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    -moz-box-align: center;
+    justify-content: space-between;
+    -moz-box-pack: justify;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
+.start__images {
+    width: 50%;
+    flex-shrink: 0;
+    max-width: none;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.start__img {
+    border-radius: 0.25rem;
+    max-width: 100%;
+    height: auto;
+}
+
+.start__dots {
+    --tw-translate-x: -50%;
+    left: 50%;
+    opacity: 0.15;
+    --tw-translate-y: 50%;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    fill: currentcolor;
+    --tw-text-opacity: 1;
+    color: rgba(100,21,255,var(--tw-text-opacity));
+    z-index: -10;
+}
+
+.start__description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    max-width: 28rem;
+    text-align: left;
+    color: rgba(36,62,99);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.start__subheading {
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgba(100,21,255);
+    margin: 0;
+    font-size: inherit;
+    letter-spacing: 0.1em;
+}
+
+.start__heading {
+    font-size: 2.25rem;
+    margin-top: 1rem;
+    font-weight: 900;
+    line-height: 1.25;
+    letter-spacing: 0.025em;
+    margin: 0;
+    color: rgba(36,62,99);
+}
+
+.start__steps {
+    margin-top: 3rem;
+    color: rgba(36,62,99);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.start__step {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 2rem;
+    -moz-box-align: center;
+    padding-left: 0;
+}
+
+.start__step--number {
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 1;
+    --tw-text-opacity: 1;
+    color: rgba(203,213,224);
+}
+
+.start__step--text {
+    margin-top: 0px;
+    margin-left: 1.5rem;
+}
+
+.start__step--heading {
+    line-height: 1;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.start__step--para {
+    margin-top: 0.75rem;
+    max-width: 20rem;
+    line-height: 2;
+    font-size: 0.875rem;
+    --tw-text-opacity: 1;
+    color: rgba(113,128,150);
+    font-weight: 500;
+}
+
+
+/*
+
+PLANS
+
+*/
+
+.plans__row {
+    display: flex;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-box-align: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    color: rgba(36,62,99);
+}
